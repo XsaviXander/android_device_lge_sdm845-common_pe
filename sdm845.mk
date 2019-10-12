@@ -70,10 +70,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
-# Freeform Multiwindow
-PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
@@ -202,6 +198,10 @@ PRODUCT_PACKAGES += \
 	qcom.fmradio.xml
 
 PRODUCT_BOOT_JARS += qcom.fmradio
+
+# Freeform Multiwindow
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
 
 # Gesture handler
 PRODUCT_PACKAGES += \
