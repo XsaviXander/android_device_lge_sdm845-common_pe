@@ -33,6 +33,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/system_prop.mk
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
