@@ -342,7 +342,4 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
-
-    <!--Enable Doze (Power Management)-->
-    <bool name="config_enableAutoPowerModes">true</bool>
 </resources>
