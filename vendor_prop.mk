@@ -28,7 +28,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.use.sw.alac.decoder=true \
     vendor.audio.use.sw.ape.decoder=true \
     vendor.fm.a2dp.conc.disabled=true \
-    vendor.voice.path.for.pcm.voip=false
+    vendor.voice.path.for.pcm.voip=false \
+    persist.vendor.lge.3rd.speaker.prot.enable=on
 
 # Audio - DAC
 PRODUCT_PROPERTY_OVERRIDES += \
